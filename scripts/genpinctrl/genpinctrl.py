@@ -75,6 +75,7 @@ PINCTRL_ADDRESSES = {
     "stm32wb": 0x48000000,
     "stm32wb0": 0x48000000,
     "stm32wl": 0x48000000,
+    "stm32wl3": 0x48000000,
 }
 """pinctrl peripheral addresses for each family."""
 

@@ -74,6 +74,7 @@ set(supported_series
   stm32wbax
   stm32wbx
   stm32wlx
+  stm32wl3x
 )
 
 # On dual-core MCUs, we must inform Cube which CPU we are building for.
