@@ -40,4 +40,6 @@
 #include <stm32u5xx_ll_dac.h>
 #elif defined(CONFIG_SOC_SERIES_STM32WLX)
 #include <stm32wlxx_ll_dac.h>
+#elif defined(CONFIG_SOC_SERIES_STM32WL3X)
+#include <stm32wl3x_ll_dac.h>
 #endif

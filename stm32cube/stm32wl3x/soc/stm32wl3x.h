@@ -50,6 +50,7 @@
   */
 #if !defined(STM32WL3)
 #define STM32WL3
+#define STM32WL3XX
 #endif /* STM32WL3 */
 
 /** Uncomment the line below according to the target STM32WL3 device used in your application.

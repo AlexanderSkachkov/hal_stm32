@@ -140,11 +140,11 @@ void HAL_I2CEx_DisableFastModePlus(uint32_t ConfigFastModePlus);
 #endif /* I2C1 */
 
 #if defined(I2C2)
-#define IS_I2C_FASTMODEPLUS(__CONFIG__) ( \
+/*#define IS_I2C_FASTMODEPLUS(__CONFIG__) ( \
     (((__CONFIG__) & (I2C_FASTMODEPLUS_PA6))  == I2C_FASTMODEPLUS_PA6)  || \
     (((__CONFIG__) & (I2C_FASTMODEPLUS_PA7))  == I2C_FASTMODEPLUS_PA7)  || \
     (((__CONFIG__) & (I2C_FASTMODEPLUS_PA13)) == I2C_FASTMODEPLUS_PA13) || \
-    (((__CONFIG__) & (I2C_FASTMODEPLUS_PA14)) == I2C_FASTMODEPLUS_PA14) )
+    (((__CONFIG__) & (I2C_FASTMODEPLUS_PA14)) == I2C_FASTMODEPLUS_PA14) )*/
 #endif /* I2C2 */
 
 /**

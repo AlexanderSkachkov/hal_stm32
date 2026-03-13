@@ -149,7 +149,7 @@
                is no need to call the 2 first functions listed above, since SystemCoreClock
                variable is updated automatically.
   */
-  uint32_t SystemCoreClock = 16000000U; /* The HSI (64MHz) is used as system clock source after startup from reset, configured at 16 MHz. */
+  // uint32_t SystemCoreClock = 16000000U; /* The HSI (64MHz) is used as system clock source after startup from reset, configured at 16 MHz. */
 
   /* Crystal frequency */
   uint32_t HSE_xtalFrequency = HSE_VALUE;
@@ -157,17 +157,17 @@
   /* The RAM_VR variable is a mirroring in RAM of some registers information.
      It is a sort of virtual register in RAM.
   */
-#if defined(__ICCARM__)
-  #pragma location=".ram_vr"
-  __root __no_init RAM_VR_TypeDef RAM_VR;
-#else
-#if defined(__ARMCC_VERSION)
-  __attribute__((section(".bss" ".ram_vr")))
-#elif defined(__GNUC__)
-  __attribute__((section(".ram_vr")))
-#endif
-  RAM_VR_TypeDef RAM_VR __attribute__((used));
-#endif
+// #if defined(__ICCARM__)
+//   #pragma location=".ram_vr"
+//   __root __no_init RAM_VR_TypeDef RAM_VR;
+// #else
+// #if defined(__ARMCC_VERSION)
+//   __attribute__((section(".bss" ".ram_vr")))
+// #elif defined(__GNUC__)
+//   __attribute__((section(".ram_vr")))
+// #endif
+//   RAM_VR_TypeDef RAM_VR __attribute__((used));
+// #endif
 /**
   * @}
   */
