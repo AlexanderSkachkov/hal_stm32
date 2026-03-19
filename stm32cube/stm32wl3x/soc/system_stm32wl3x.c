@@ -149,7 +149,7 @@
                is no need to call the 2 first functions listed above, since SystemCoreClock
                variable is updated automatically.
   */
-  // uint32_t SystemCoreClock = 16000000U; /* The HSI (64MHz) is used as system clock source after startup from reset, configured at 16 MHz. */
+  uint32_t SystemCoreClock = 16000000U; /* The HSI (64MHz) is used as system clock source after startup from reset, configured at 16 MHz. */
 
   /* Crystal frequency */
   uint32_t HSE_xtalFrequency = HSE_VALUE;
